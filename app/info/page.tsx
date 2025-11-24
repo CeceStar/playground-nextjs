@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
   Container,
   Box,
@@ -39,8 +39,13 @@ function TabPanel(props: TabPanelProps) {
   );
 }
 
-export default function HomePage() {
+export default function InfoPage() {
   const [value, setValue] = useState(0);
+  const [isMounted, setIsMounted] = useState(false);
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
     setValue(newValue);
@@ -69,6 +74,25 @@ export default function HomePage() {
       buttonText: "Contact Us",
     },
   ];
+
+  if (!isMounted) {
+    return (
+      <Box
+        sx={{
+          minHeight: "100vh",
+          background: "linear-gradient(135deg, #ebca79ff 0%, #e9dec2ff 100%)",
+          py: 4,
+        }}>
+        <Container maxWidth="md">
+          <Card elevation={3} sx={{ borderRadius: 2, overflow: "hidden" }}>
+            <Box sx={{ p: 4, textAlign: "center" }}>
+              <Typography>Loading...</Typography>
+            </Box>
+          </Card>
+        </Container>
+      </Box>
+    );
+  }
 
   return (
     <Box

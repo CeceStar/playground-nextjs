@@ -1,15 +1,18 @@
 "use client";
 
+import { useRouter } from "next/navigation";
 import {
   AppBar,
   Toolbar,
   Typography,
-  Button,
   Container,
   Box,
+  Link,
 } from "@mui/material";
 
 export default function Header() {
+  const router = useRouter();
+
   return (
     <AppBar
       position="static"
@@ -28,22 +31,44 @@ export default function Header() {
               fontSize: "1.5rem",
               cursor: "pointer",
             }}
-            onClick={() => (window.location.href = "/")}>
+            onClick={() => router.push("/")}>
             Doggos
           </Typography>
           <Box sx={{ ml: "auto", display: "flex", gap: 2 }}>
-            <Button
-              color="inherit"
+            <Link
               href="/"
-              sx={{ fontSize: "1rem", color: "#222121e6" }}>
-              Landing
-            </Button>
-            <Button
               color="inherit"
-              href="/home"
-              sx={{ fontSize: "1rem", color: "#222121e6" }}>
+              underline="none"
+              sx={{
+                fontSize: "1rem",
+                color: "#222121e6",
+                px: 2,
+                py: 1,
+                borderRadius: 1,
+                transition: "background-color 0.3s",
+                "&:hover": {
+                  backgroundColor: "rgba(34, 33, 33, 0.1)",
+                },
+              }}>
               Home
-            </Button>
+            </Link>
+            <Link
+              href="/info"
+              color="inherit"
+              underline="none"
+              sx={{
+                fontSize: "1rem",
+                color: "#222121e6",
+                px: 2,
+                py: 1,
+                borderRadius: 1,
+                transition: "background-color 0.3s",
+                "&:hover": {
+                  backgroundColor: "rgba(34, 33, 33, 0.1)",
+                },
+              }}>
+              Info
+            </Link>
           </Box>
         </Toolbar>
       </Container>

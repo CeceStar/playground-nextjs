@@ -30,14 +30,14 @@ export default function Footer() {
               color="inherit"
               underline="hover"
               sx={{ display: "block", mb: 0.5 }}>
-              Landing
+              Home
             </MuiLink>
             <MuiLink
-              href="/home"
+              href="/info"
               color="inherit"
               underline="hover"
               sx={{ display: "block" }}>
-              Home
+              Info
             </MuiLink>
           </Box>
           <Box>

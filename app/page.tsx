@@ -40,7 +40,7 @@ export default function Home() {
             <Button
               variant="contained"
               size="large"
-              onClick={() => router.push("/home")}
+              onClick={() => router.push("/info")}
               sx={{
                 backgroundColor: "white",
                 color: "rgba(34, 33, 33, 0.9)",
