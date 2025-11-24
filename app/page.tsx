@@ -35,7 +35,7 @@ export default function Home() {
                 fontWeight: 300,
               }}>
               Explore amazing features about owning a dog, view pricing, and get
-              in touch with our team.
+              in touch with a dog shelter.
             </Typography>
             <Button
               variant="contained"
