@@ -1,7 +1,14 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { Container, Box, Typography, Button } from "@mui/material";
+import {
+  Container,
+  Box,
+  Typography,
+  Button,
+  Card,
+  CardMedia,
+} from "@mui/material";
 
 export default function Home() {
   const router = useRouter();
@@ -18,6 +25,20 @@ export default function Home() {
         }}>
         <Container maxWidth="md">
           <Box sx={{ textAlign: "center", color: "#222121e6" }}>
+            <Card
+              sx={{
+                mb: 4,
+                boxShadow: "0 4px 20px rgba(0, 0, 0, 0.2)",
+                borderRadius: "12px",
+                overflow: "hidden",
+              }}>
+              <CardMedia
+                component="img"
+                height="400"
+                image="https://dogagingproject.org/_next/image?url=https%3A%2F%2Fcontent.dogagingproject.org%2Fwp-content%2Fuploads%2F2020%2F11%2Fhelena-lopes-S3TPJCOIRoo-unsplash-scaled.jpg&w=1200&q=75"
+                alt="A cute dog"
+              />
+            </Card>
             <Typography
               variant="h2"
               sx={{
