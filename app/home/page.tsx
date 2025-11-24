@@ -73,8 +73,8 @@ export default function HomePage() {
   return (
     <Box
       sx={{
-        minHeight: "calc(100vh - 200px)",
-        background: "linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)",
+        minHeight: "100vh",
+        background: "linear-gradient(135deg, #ebca79ff 0%, #e9dec2ff 100%)",
         py: 4,
       }}>
       <Container maxWidth="md">
@@ -93,12 +93,12 @@ export default function HomePage() {
                 textTransform: "capitalize",
                 color: "#616161",
                 "&.Mui-selected": {
-                  color: "#1976d2",
+                  color: "#1f2022ff",
                   fontWeight: 600,
                 },
               },
               "& .MuiTabs-indicator": {
-                backgroundColor: "#1976d2",
+                backgroundColor: "#616161",
                 height: 3,
               },
             }}>
@@ -133,9 +133,9 @@ export default function HomePage() {
                       variant="contained"
                       size="large"
                       sx={{
-                        backgroundColor: "#1976d2",
+                        backgroundColor: "#616161",
                         "&:hover": {
-                          backgroundColor: "#1565c0",
+                          backgroundColor: "#616161",
                         },
                         textTransform: "capitalize",
                         fontSize: "1rem",

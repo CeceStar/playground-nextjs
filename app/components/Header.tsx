@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import {
   AppBar,
   Toolbar,
@@ -12,7 +11,10 @@ import {
 
 export default function Header() {
   return (
-    <AppBar position="static" elevation={2} sx={{ backgroundColor: "#1976d2" }}>
+    <AppBar
+      position="static"
+      elevation={2}
+      sx={{ backgroundColor: "#f7edd7ff" }}>
       <Container maxWidth="lg">
         <Toolbar disableGutters>
           <Typography
@@ -22,18 +24,24 @@ export default function Header() {
             sx={{
               mr: 4,
               fontWeight: 700,
-              color: "inherit",
+              color: "#222121e6",
               fontSize: "1.5rem",
               cursor: "pointer",
             }}
             onClick={() => (window.location.href = "/")}>
-            MyApp
+            Doggos
           </Typography>
           <Box sx={{ ml: "auto", display: "flex", gap: 2 }}>
-            <Button color="inherit" href="/" sx={{ fontSize: "1rem" }}>
+            <Button
+              color="inherit"
+              href="/"
+              sx={{ fontSize: "1rem", color: "#222121e6" }}>
               Landing
             </Button>
-            <Button color="inherit" href="/home" sx={{ fontSize: "1rem" }}>
+            <Button
+              color="inherit"
+              href="/home"
+              sx={{ fontSize: "1rem", color: "#222121e6" }}>
               Home
             </Button>
           </Box>
