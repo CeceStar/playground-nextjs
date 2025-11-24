@@ -51,21 +51,21 @@ export default function HomePage() {
       label: "Features",
       heading: "Amazing Features",
       description:
-        "Discover the powerful features that make our platform the best choice for your needs. Built with cutting-edge technology and designed with you in mind.",
+        "Owning a dog comes with some truly top-tier features. You get a built-in doorbell that barks at absolutely nothing, a personal trainer who insists you go outside even when it’s raining, and a living vacuum cleaner that specializes in cleaning up any food you drop—instantly. You’ll also enjoy daily reminders that socks are chew toys, not clothing, and a loyal companion who thinks you’re a superhero simply for coming home from the grocery store. In short, a dog gives you endless laughs, unconditional love, and a little chaos to keep life interesting.",
       buttonText: "Learn More",
     },
     {
       label: "Pricing",
       heading: "Simple Pricing",
       description:
-        "Choose a plan that fits your budget and scale as you grow. Our transparent pricing ensures you only pay for what you use.",
+        "Getting a dog comes with a very transparent pricing model. First, there’s the “Starter Pack,” which includes food, bowls, toys, and a bed—none of which your dog will actually use as intended. Then you have the “Subscription Fees,” like treats, replacement toys, and the occasional shoe your dog helpfully redesigns. Add in the “Surprise Charges,” such as emergency zoomies that knock over your lamp or the mysterious disappearance of every sock you own. But in return, you get unlimited cuddles, constant entertainment, and a best friend who pays you back in tail wags—making the whole package absolutely worth the investment.",
       buttonText: "View Plans",
     },
     {
       label: "Contact",
       heading: "Get in Touch",
       description:
-        "Have questions? Our dedicated support team is ready to help you succeed. Reach out to us anytime.",
+        "Need more reasons to get a dog—or want to share your own canine chaos stories? Get in touch with us anytime. Our team is always ready to answer questions, give totally unbiased dog recommendations, or simply admire pictures of your furry friend. Just reach out, and we’ll happily fetch whatever info you need.",
       buttonText: "Contact Us",
     },
   ];

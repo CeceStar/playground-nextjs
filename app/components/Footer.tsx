@@ -15,10 +15,10 @@ export default function Footer() {
           }}>
           <Box>
             <Typography variant="h6" sx={{ fontWeight: 700, mb: 1 }}>
-              MyApp
+              Doggo
             </Typography>
             <Typography variant="body2" sx={{ color: "#b0bec5" }}>
-              Your go-to platform for amazing features and seamless experiences.
+              Your go-to platform for arguments on why to get a dog.
             </Typography>
           </Box>
           <Box>
@@ -45,7 +45,7 @@ export default function Footer() {
               Contact
             </Typography>
             <Typography variant="body2" sx={{ color: "#b0bec5" }}>
-              Email: info@myapp.com
+              Email: info@mydoggo.com
             </Typography>
             <Typography variant="body2" sx={{ color: "#b0bec5" }}>
               Phone: +1 (555) 123-4567
@@ -55,7 +55,7 @@ export default function Footer() {
         <Box
           sx={{ borderTop: "1px solid #455a64", pt: 2, textAlign: "center" }}>
           <Typography variant="body2" sx={{ color: "#90a4ae" }}>
-            &copy; 2025 MyApp. All rights reserved.
+            &copy; 2025 Doggo. All rights reserved.
           </Typography>
         </Box>
       </Container>

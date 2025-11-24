@@ -25,7 +25,7 @@ export default function Home() {
                 mb: 2,
                 fontSize: { xs: "2.5rem", sm: "3.5rem", md: "4rem" },
               }}>
-              Welcome to Your App
+              Welcome to Doggos
             </Typography>
             <Typography
               variant="h5"
@@ -34,8 +34,8 @@ export default function Home() {
                 fontSize: { xs: "1rem", sm: "1.25rem" },
                 fontWeight: 300,
               }}>
-              Explore amazing features, view our pricing, and get in touch with
-              our team.
+              Explore amazing features about owning a dog, view pricing, and get
+              in touch with our team.
             </Typography>
             <Button
               variant="contained"
@@ -51,7 +51,7 @@ export default function Home() {
                   backgroundColor: "#f0f0f0",
                 },
               }}>
-              Go to Home
+              Get more information
             </Button>
           </Box>
         </Container>
@@ -112,6 +112,22 @@ export default function Home() {
             and unconditional love, proving time and again why they truly
             deserve the title of man’s best friend.
           </Typography>
+          <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
+            <Button
+              variant="contained"
+              size="large"
+              sx={{
+                backgroundColor: "#616161",
+                "&:hover": {
+                  backgroundColor: "#616161",
+                },
+                textTransform: "capitalize",
+                fontSize: "1rem",
+                padding: "10px 32px",
+              }}>
+              Get a dog now
+            </Button>
+          </Box>
         </Box>
       </Container>
     </>
