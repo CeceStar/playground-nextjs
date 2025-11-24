@@ -65,7 +65,7 @@ export default function Home() {
             color: "rgba(34, 33, 33, 0.9)",
             textAlign: "center",
           }}>
-          Arguments to why you should get a dog
+          Arguments why dogs are truly man’s best friend
         </Typography>
         <Box>
           <Box
