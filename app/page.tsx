@@ -34,7 +34,7 @@ export default function Home() {
                 mb: 2,
                 fontSize: { xs: "2.5rem", sm: "3.5rem", md: "4rem" },
               }}>
-              Welcome to Schobedoooo
+              Welcome to Scobedoooo
             </Typography>
             <Typography
               variant="h5"
