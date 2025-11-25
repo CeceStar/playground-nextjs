@@ -25,6 +25,15 @@ export default function Home() {
                 mb: 2,
                 fontSize: { xs: "2.5rem", sm: "3.5rem", md: "4rem" },
               }}>
+              Trying to creat merge conflict
+            </Typography>
+            <Typography
+              variant="h2"
+              sx={{
+                fontWeight: 700,
+                mb: 2,
+                fontSize: { xs: "2.5rem", sm: "3.5rem", md: "4rem" },
+              }}>
               Welcome to Doggos
             </Typography>
             <Typography
